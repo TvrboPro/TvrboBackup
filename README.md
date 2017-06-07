@@ -1,7 +1,7 @@
 Tvrbo Backups
 ---
 
-1) Sign up on https://console.developers.google.com/apis?project=right-side-coffee
+1) Sign up on https://console.developers.google.com/apis
 2) Create a project
 3) Go to Credentials > Create Credentials > Service Account Key
 4) Generate a JSON key file
