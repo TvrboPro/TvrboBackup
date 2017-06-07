@@ -1,0 +1,21 @@
+{
+  "name": "tvrbo-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "google-cloud": "^0.55.0",
+    "shelljs": "^0.7.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jordi Moraleda <jordi@tvrbo.pro>",
+  "license": "ISC"
+}
