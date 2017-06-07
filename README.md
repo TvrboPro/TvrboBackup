@@ -1,23 +1,28 @@
-Tvrbo Backups
+Tvrbo Backup
 ---
 
-1) Sign up on https://console.developers.google.com/apis
-2) Create a project
-3) Go to Credentials > Create Credentials > Service Account Key
-4) Generate a JSON key file
-5) Put it in the config folder
-6) Update config/index.js to match your needs
+* Sign up on https://console.developers.google.com/apis
+* Create a project
+* Go to Credentials > Create Credentials > Service Account Key
+* Generate a JSON key file
+* Put it in the config folder
+* Update config/index.js to match your needs
 
-***Notes***
+## Notes
+
 * To perform a backup:
 
+```bash
     node . backup  # all configurations
     node . backup db-weekly  # just this configuration
+```
 
 * To remove the older backups
 
+```bash
     node . rotate  # all configurations
     node . rotate db-weekly  # just this configuration
+```
 
-* To do a backup, you'll need to generate a JSON key with Write permissions
-* To rotate the stored backups, you'll need a Read/Write key
+* To do a backup, you'll need to generate a JSON key with write permissions
+* To rotate the stored backups, you'll need a read/write key
